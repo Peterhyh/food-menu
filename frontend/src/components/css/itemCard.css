@@ -1,0 +1,38 @@
+.itemContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+    margin: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(100deg, #f5cbd7, #F27E9F);
+    border: 3px solid #ffffff;
+}
+
+.imageContent img {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.ingredientsContent {
+    display: flex;
+    justify-content: center;
+}
+
+.recipeContent ul {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.recipeContent {
+    width: 40%;
+    border-radius: 30px;
+    background-color: #FEFEFE;
+}

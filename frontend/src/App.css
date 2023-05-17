@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: aqua;
+  background-color: #FFD1DE;
 }
 
 .App-logo {
@@ -43,7 +43,10 @@
 
 
 .menuPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
-  background-color: black;
   border: 1px solid firebrick;
 }
